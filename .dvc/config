@@ -1,0 +1,4 @@
+[core]
+    remote = sberdataconnection
+['remote "sberdataconnection"']
+    url = /Users/cpattekar/GitRep/ML-Data-Store/Sberbank-data/

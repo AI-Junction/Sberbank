@@ -34,9 +34,15 @@ import lightgbm as lgb
 from sklearn import model_selection, preprocessing
 import pdb
 
+'''
 macro = pd.read_csv("C:\\Users\\echtpar\\Anaconda3\\KerasProjects\\Keras-CNN-Tutorial\\AllSberbankData\\macro.csv")
 train = pd.read_csv("C:\\Users\\echtpar\\Anaconda3\\KerasProjects\\Keras-CNN-Tutorial\\AllSberbankData\\train.csv", parse_dates=['timestamp'])
 test = pd.read_csv("C:\\Users\\echtpar\\Anaconda3\\KerasProjects\\Keras-CNN-Tutorial\\AllSberbankData\\test.csv", parse_dates=['timestamp'])
+'''
+
+macro = pd.read_csv("src/data/raw/sberbank_macro.csv")
+train = pd.read_csv("src/data/raw/train.csv", parse_dates=['timestamp'])
+test = pd.read_csv("src/data/raw/test.csv", parse_dates=['timestamp'])
 
 
 
@@ -127,10 +133,16 @@ from scipy.stats import norm
 
 
 #load files
-
+'''
 macro = pd.read_csv("C:\\Users\\echtpar\\Anaconda3\\KerasProjects\\Keras-CNN-Tutorial\\AllSberbankData\\macro.csv")
 train = pd.read_csv("C:\\Users\\echtpar\\Anaconda3\\KerasProjects\\Keras-CNN-Tutorial\\AllSberbankData\\train.csv", parse_dates=['timestamp'])
 test = pd.read_csv("C:\\Users\\echtpar\\Anaconda3\\KerasProjects\\Keras-CNN-Tutorial\\AllSberbankData\\test.csv", parse_dates=['timestamp'])
+'''
+
+
+macro = pd.read_csv("src/data/raw/sberbank_macro.csv")
+train = pd.read_csv("src/data/raw/train.csv", parse_dates=['timestamp'])
+test = pd.read_csv("src/data/raw/test.csv", parse_dates=['timestamp'])
 
             
 #train = pd.read_csv('../input/train.csv', parse_dates=['timestamp'])

@@ -1,0 +1,6 @@
+outs:
+- md5: 6353ee8fdae4208b712f87537b829dbd
+  size: 1555437
+  isexec: true
+  hash: md5
+  path: sberbank_macro.csv
